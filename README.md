@@ -37,7 +37,7 @@ Instructions and resources are listed below.
 1. Changed the secrets.ASOC_API_KEY and secrets.ASOC_API_KEY varible names to secrets.ASOC_KEY and secrets.ASOC_KEY, respectively, to be consistent with those used in the **HCL AppScan CodeSweep Github Action** extension.
 2. Modified appscan-config.xml to exlude the saclientutil, to prevent it from being scanned. The workflow is designed to download the latest version of SAClientUtil to generate the .irx in preparation for the scan. The download happens in the working directory/folder and as a result, SAClientUtil will be included in the scan.
 3. Updated ASOC_APPID: [ID] to reflect the ASoC application this scan is for.
-4. Removed .NET building, since it's a Python application being scanned.
+4. Removed .NET building, since this a Python application being scanned.
 5. For convienence, the push and pull_request triggers where commented out. To trigger a scan of the codebase, simply run the workflow manually.
 
 To run the workflow manually, go to Github Actions -> HCL ASoC SAST Workflow -> Run workflow.

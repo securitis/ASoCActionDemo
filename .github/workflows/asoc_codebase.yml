@@ -84,10 +84,7 @@ jobs:
           Expand-Archive -Path "saclientutil.zip" -DestinationPath "saclientutil"
           $SAClientUtilFolder = Get-ChildItem -Path .\saclientutil
           $command = ".\saclientutil\" + $SAClientUtilFolder.name + "\bin\appscan.bat"
-          & $command prepare -n output.irx
-          
-          # GL - Use the -c param to specify a configuration file
-          # & $command prepare -c $env:ASoC_IRX_Config_file -n output.irx
+          & $command prepare -c $env:ASoC_IRX_Config_file -n output.irx
           
           # Comment out this lines for a proper .irx generation. This line is for demo purposes, it only downloads a sample .irx file that is not related to the source code in this repo
           # Invoke-WebRequest -Uri "https://cloud.appscan.com/api/V2/Tools/ScanDemoFiles/StaticAnalyzer" -OutFile "output.irx"

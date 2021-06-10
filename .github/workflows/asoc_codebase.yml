@@ -8,7 +8,7 @@
 # the file asoc_codebase.yml
 # 
 
-name: HCL ASoC SAST workflow
+name: HCL ASoC SAST Workflow
 
 # Controls when the action will run. 
 on:

@@ -3,7 +3,7 @@ ASoCActionDemo is a sample application and workflows for demonstrating HCL AppSc
 
 ASoCActionDemo includes a Python application written purely for demonstration purposes and has known vulnerabilities. A description of the application is in Demo_ReadMe.txt.
 
-The Python code in this project can be used with Microsoft Visual Code and the HCL AppScan CodeSweep to scan for vulnerabilities. Also included are two GitHub workflows to for demonstrating CodeSweep (or file change based scans tied to a Pull Request) and ASoC SAST scans (entire codebase).
+The Python code in this project can be used with Microsoft Visual Code and the HCL AppScan CodeSweep extension to scan for vulnerabilities. Also included are two GitHub workflows to for demonstrating CodeSweep Action (or file change based scans tied to a Pull Request) and ASoC SAST scans (entire codebase).
 
 
 

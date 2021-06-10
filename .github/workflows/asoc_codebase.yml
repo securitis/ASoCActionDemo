@@ -7,11 +7,13 @@
 # The example shows the process of scanning a simple Python project. The full YAML script is in 
 # the file asoc_codebase.yml
 # 
+# Search for 'TODO' to see where updates are required
 
 name: HCL ASoC SAST Workflow
 
 # Controls when the action will run. 
 on:
+  # TODO: Uncomment/comment triggers based on your needs
   # Triggers the workflow on push or pull request events but only for the main branch
 #   push:
 #     branches: [ main ]
@@ -44,24 +46,28 @@ jobs:
           ls
         shell: pwsh
       
-      # GL - Use the follwing for a .NET build
+      # TODO - Use (uncomment) the following for a .NET build
       # - name: Run donet -build
       #   run: dotnet.exe publish -c Release -r win-x64
       
       # Runs AppScan Step
       - name: Perform HCL AppScan Security Analysis
         env:
+          # TODO: In ASoC, generate an ASoC key/secret
+          # TODO: In GitHub > Settings > Secrets, Add ASOC_KEY and ASOC_SECRET variables
           ASOC_KEY: ${{ secrets.ASOC_KEY }}
           ASOC_SECRET: ${{ secrets.ASOC_SECRET }}
           TestVar: abcd
           ASOC_SCAN_NAME: Automated Scan from Github Actions
-          # Application: TMP = 1e978b3c-1f95-e711-80ba-002324b5f40c
+          # TODO: Update ASOC_APPID to reflect the ASoC application this scan is to be associated with
           ASOC_APPID: 1e978b3c-1f95-e711-80ba-002324b5f40c
 
         run: |
           $baseURL = 'https://cloud.appscan.com/api/V2'
           $env:ASoC_appID = $env:ASOC_APPID
           $env:ASoC_scanName = $env:ASOC_SCAN_NAME
+          # TODO: appscan-config.xml is required for this to run. 
+          # TODO: Make sure to add and <Exlcude>saclientutil</Exclude> statement to prevent SAClientUtil from being scanned
           $env:ASoC_IRX_Config_file = "appscan-config.xml"
           $bearer_token =''
           

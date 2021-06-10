@@ -3,11 +3,11 @@ ASoCActionDemo is a sample application and workflows for demonstrating HCL AppSc
 
 ASoCActionDemo includes a Python application written purely for demonstration purposes and has known vulnerabilities. A description of the application is in Demo_ReadMe.txt.
 
-The Python code in this project can be used with Microsoft Visual Code and the HCL AppScan CodeSweep extension to scan for vulnerabilities. Also included are two GitHub workflows to for demonstrating CodeSweep Action (or file change based scans tied to a Pull Request) and ASoC SAST scans (entire codebase).
+The Python code in this project can be used with Microsoft Visual Code and the HCL AppScan CodeSweep extension for VSCode to scan for vulnerabilities. Also included are two GitHub workflows to demonstrate the HCL CodeSweep extension for GitHub Actions (file change based scans tied to a Pull Request) and ASoC SAST scans (entire codebase).
 
 
 
-## 1. HCL AppScan CodeSweep
+## 1. HCL AppScan CodeSweep extension for Microsoft Visual Code
 
 **HCL AppScan CodeSweep** is an HCL AppScan extension for Visual Studio Code provides Static Application Security Testing (SAST) functionality for detecting vulnerabilities early in the development life cycle. It's a lightweight, FREE extension for quickly and easily discovering vulnerabilites while you're writing code.
 

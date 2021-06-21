@@ -25,7 +25,7 @@ Instructions and resources are listed below.
 
 Instructions and resources are listed below.
 
-* [HCL AppScan CodeSweep Github Action | GitHub Marketplace](https://www.youtube.com/watch?v=Ublu4zPAKtE)
+* [HCL AppScan CodeSweep Github Action | GitHub Marketplace](https://github.com/marketplace/actions/hcl-appscan-codesweep)
 
 * [This is AppScan - AppScan CodeSweep & GitHub | YouTube](https://www.youtube.com/watch?v=Ublu4zPAKtE)
 

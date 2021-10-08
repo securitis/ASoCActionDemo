@@ -8,7 +8,7 @@ user = "jsmith"
 password = "demo1234"
 #(user,password) = altoro.readCredsFromConfig("config.txt")
 
-print("Logging in...", end="")
+print("Logging in... ", end="")
 if(altoro.login(user, password)==False):
     print("False")
     print("Error logging in... exiting")

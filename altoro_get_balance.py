@@ -4,8 +4,8 @@ import pickle
 import hashlib
 import os
 
-user = "jsmith"
-password = "demo1234"
+#user = "jsmith"
+#password = "demo1234"
 #(user,password) = altoro.readCredsFromConfig("config.txt")
 
 print("Logging in...", end="")

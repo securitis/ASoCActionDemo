@@ -90,7 +90,7 @@ def readCredsFromConfig(config_file):
     passwd = config.readline().strip()
     return (user,passwd)
 
-def file_exists(dir_path, file_name):
+def file_exists(dir_path,  file_name):
     p = subprocess.Popen(["dir", dir_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p_status = p.wait()

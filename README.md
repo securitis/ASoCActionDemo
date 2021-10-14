@@ -7,7 +7,7 @@ The Python code in this project can be used with Microsoft Visual Code and the H
 
 
 
-## 1. HCL AppScan CodeSweep extension for Microsoft Visual Code
+## 1. HCL AppScan CodeSweep Extension for Microsoft Visual Code
 
 **HCL AppScan CodeSweep** is an HCL AppScan extension for Visual Studio Code provides Static Application Security Testing (SAST) functionality for detecting vulnerabilities early in the development life cycle. It's a lightweight, FREE extension for quickly and easily discovering vulnerabilites while you're writing code.
 

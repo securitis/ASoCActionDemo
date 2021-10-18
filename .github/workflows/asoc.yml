@@ -61,7 +61,8 @@ jobs:
           ASOC_SCAN_NAME: Automated Scan from Github Actions
           # TODO: Update ASOC_APPID to reflect the ASoC application this scan is to be associated with
           # ASoC App: ASoCActionDemo
-          ASOC_APPID: f8f9e91b-708a-4d8f-b3f8-c9b4e6ac2b53
+          #ASOC_APPID: f8f9e91b-708a-4d8f-b3f8-c9b4e6ac2b53
+          ASOC_APPID: 19ac48c4-2aca-4b2d-b49c-139e6378a9e6
 
         run: |
           $baseURL = 'https://cloud.appscan.com/api/V2'

@@ -20,7 +20,7 @@ Instructions and resources are listed below.
 * [This is AppScan - AppScan CodeSweep | YouTube](https://www.youtube.com/watch?v=OgVGjpQAgQA&t=207s)
 
 
-## 2. HCL AppScan CodeSweep Github Extension
+## 2. HCL AppScan CodeSweep Extension for GitHub
 **HCL AppScan CodeSweep Github Action** extension allows for scanning for vulnerabilities in changed code, triggered via a Pull Request. The **HCL AppScan CodeSweep Github Action** extension for this project is located in [.github/workflows/codesweep.yml](https://github.com/glhcl/ASoCActionDemo/blob/main/.github/workflows/codesweep.yml). 
 
 Instructions and resources are listed below.

@@ -32,7 +32,7 @@ Instructions and resources are listed below.
 
 
 
-## 3. HCL ASoC SAST Workflow
+## 3. HCL ASoC SAST Workflow for GitHub
 **HCL ASoC SAST Workflow** performs a security scan against an entire codebase, triggered manually via Github Actions. The HCL ASoC SAST Workflow is a slightly modified version of the workflow used in [ASoC_Demo](https://github.com/antonychiu2/ASoC_Demo), to work with the Python application in this project. The **HCL ASoC SAST Workflow** for this project is located in [.github/workflows/asoc.yml](https://github.com/glhcl/ASoCActionDemo/blob/main/.github/workflows/asoc.yml). 
 
 ### A couple key changes where required to make the workflow work with the Python application:

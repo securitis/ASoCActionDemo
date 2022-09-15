@@ -138,7 +138,7 @@ jobs:
              'ScanName' = "$env:ASoC_scanName"
              'EnableMailNotification' = "true"
              'Locale' = "en-US"
-             'AppId' = "43242d47-a28f-4379-88a9-a9d89eea8058"
+             'AppId' = "$env:ASoC_appID"
              'Execute' = "true"
              'FullyAutomatic' = "false"
              'Personal' = "false"
